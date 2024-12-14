@@ -19,5 +19,7 @@ app.get("/", (req, res) => res.send("API Working Fine"));
 
 app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`));
 
+export default app;
+
 //localhost:4000/api/user/register
 //localhost:4000/api/user/signIn
